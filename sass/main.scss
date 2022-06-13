@@ -1,8 +1,10 @@
-@import "./utils/variables";
-@import "./components/body";
+
 @import "./utils/_placeholders";
+@import "./utils/body";
+@import "./utils/_variables";
 @import "./utils/_mixins";
 @import "./utils/breackpoints";
 
+
 // --------------------header--------------------
-@import "./components/header";
+@import "./components/_header"
