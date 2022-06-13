@@ -1,5 +1,6 @@
 //Menu
 .mobile-menu {	
+	text-align: center;
 	@media (min-width: 768px) {
 			display: none;
 		}
@@ -40,13 +41,27 @@ transition-duration: opacity 500ms linear;
 	width: 300px;
 	height: 300px;
 position: absolute;
-top: 50%;
+top: 60%;
 left: 50%;
 transform: translate(-50%, -50%);
 opacity: 0.5;
 }
+.menu__list {}
 
+.menu__item {
+	font-family: $ff-logo;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 47px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: rgb(237, 246, 250);
+}
 
+.menu__soc{
+background-color:red;
+}
 
 
 
@@ -59,6 +74,7 @@ opacity: 0.5;
 //Button mobile menu
 /* nav-icon-1 */
 .nav-icon-1 {
+		
 	z-index: 999;
 	min-width: 30px;
 	height: 30px;
