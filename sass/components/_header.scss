@@ -36,7 +36,7 @@ color: rgb(92, 119, 255);
 		
 			@media screen and(max-width: 767px) {
 				min-width: 70px;
-				height:70px;
+			min-height:70px;
 			}
 }
 
@@ -103,27 +103,27 @@ color: rgb(92, 119, 255);
 										}
 }
 
-.menu-button{
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	background-color: transparent;
-	cursor: pointer;
-	margin-left: auto;
-}
+// .menu-button{
+// 	display: inline-block;
+// 	margin: 0;
+// 	padding: 0;
+// 	border: 0;
+// 	background-color: transparent;
+// 	cursor: pointer;
+// 	margin-left: auto;
+// }
 
-.menu-button .menu__icon-x{
-	display: none;
-}
+// .menu-button .menu__icon-x{
+// 	display: none;
+// }
 
-.menu-button.is-open .menu__icon-x{
-	display: block;
-}
+// .menu-button.is-open .menu__icon-x{
+// 	display: block;
+// }
 
-.menu-button.is-open .menu__icon-burger{
-	display: none;
-}
+// .menu-button.is-open .menu__icon-burger{
+// 	display: none;
+// }
 
 .mobile-menu{
 	position: absolute;
