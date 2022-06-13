@@ -11,12 +11,9 @@ height: 150px;
 		}
 }
 .header{
-	
-position: fixed;
+width: 100%;
 	background: rgb(237, 246, 250);
-	@media screen and(max-width: 767px) {
-			height: 80px;
-		}
+
 }
 .nav{
 	display: flex;
@@ -38,9 +35,8 @@ color: rgb(92, 119, 255);
 		cursor: pointer;
 		
 			@media screen and(max-width: 767px) {
-				max-width: 70px;
-			min-height:70px;
-			max-height: 70px;
+				min-width: 70px;
+				height:70px;
 			}
 }
 
@@ -200,6 +196,7 @@ color: rgb(92, 119, 255);
 	min-width: 30px;
 	height: 30px;
 	position: relative;
+	right: 20px;
 	transition: .1s;
 	margin: 10px 10px;
 	cursor: pointer;
