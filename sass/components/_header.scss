@@ -11,9 +11,12 @@ height: 150px;
 		}
 }
 .header{
-
+	
+position: fixed;
 	background: rgb(237, 246, 250);
-
+	@media screen and(max-width: 767px) {
+			height: 80px;
+		}
 }
 .nav{
 	display: flex;

@@ -5,12 +5,6 @@ p {
   margin: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 a,
 li {
   list-style: none;
@@ -92,7 +86,14 @@ body {
 }
 
 .header {
+  position: fixed;
   background: #edf6fa;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 80px;
+  }
 }
 
 .nav {
