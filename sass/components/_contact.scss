@@ -1,0 +1,27 @@
+.contact .conteiner{
+
+}
+.contact__list {
+// display: flex;
+// flex-wrap: wrap;
+width: 100%;
+text-align: center;
+
+}
+.contact__item {
+	margin-bottom: 30px;
+	
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+.contact__link {
+	font-size: 18px;
+	font-weight: 500;
+	width: 60px;
+	color: rgb(0, 0, 0);
+}
+.contact__icon {
+	margin-right: 10px;
+	fill: $color-fone;
+}
